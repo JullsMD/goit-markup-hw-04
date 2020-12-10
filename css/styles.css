@@ -146,16 +146,7 @@ p {
 .icon-mail,
 .icon-tel {
   margin-right: 10px;
-
-  fill: var(--secondary-text-color);
-}
-.contacts-link:hover .icon-mail,
-.contacts-link:focus .icon-mail {
-  fill: var(--accent-color);
-}
-.contacts-link:hover .icon-tel,
-.contacts-link:focus .icon-tel {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 /* MAIN */
 
@@ -385,12 +376,7 @@ p {
 }
 
 .socials-icon {
-  fill: var(--icon-color);
-}
-
-.socials-link:hover .socials-icon,
-.socials-link:focus .socials-icon {
-  fill: var(--primary-background-color);
+  fill: currentColor;
 }
 
 .socials-link {
@@ -402,11 +388,13 @@ p {
   padding: 0;
   border: 0;
   border-radius: 50%;
+  color: var(--icon-color);
 }
 
 .socials-link:hover,
 .socials-link:focus {
   background-color: var(--accent-color);
+  color: var(--primary-background-color);
   cursor: pointer;
 }
 
@@ -433,22 +421,17 @@ p {
   height: 90px;
   margin: 0;
 
+  color: var(--icon-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
 }
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
-  fill: var(--accent-color);
-}
+
 .clients-link:hover,
 .clients-link:focus {
   border: 1px solid var(--accent-color);
+  color: var(--accent-color);
 }
 .clients-icon {
-  fill: var(--icon-color);
-}
-.clients-icon:hover,
-.clients-icon:focus {
   fill: currentColor;
 }
 
@@ -531,11 +514,14 @@ p {
   border-radius: 50%;
 
   background-color: var(--socials-footer);
-  fill: var(--primary-background-color);
+  color: var(--primary-background-color);
 }
 .soc-link:hover,
 .soc-link:focus {
   background-color: var(--accent-color);
+}
+.soc-icon {
+  fill: currentColor;
 }
 
 .slogan {
