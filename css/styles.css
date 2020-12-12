@@ -618,6 +618,7 @@ p {
 /* Card */
 .card {
   text-decoration: none;
+  border: 1px solid transparent;
 
   color: inherit;
 }
