@@ -441,16 +441,19 @@ p {
 }
 .page-footer {
   display: flex;
-
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
+
 /* Логотип-2 */
 .studio {
   color: var(--primary-background-color);
 }
 
 /* Адресс */
+.address-box {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .address {
   margin-top: 20px;
 
@@ -483,6 +486,8 @@ p {
 /* socials-footer */
 
 .soc-box {
+  padding-top: 72px;
+  padding-bottom: 100px;
   margin-left: 70px;
 }
 .soc-list {
