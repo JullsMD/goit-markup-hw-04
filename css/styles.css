@@ -54,6 +54,8 @@ p {
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
+
+  outline: 1px dashed green;
 }
 
 .visually-hidden {
@@ -598,6 +600,8 @@ p {
 
   margin-top: calc(-1 * var(--card-set-gap));
   margin-left: calc(-1 * var(--card-set-gap));
+
+  /* outline: 1px solid red; */
 }
 
 .card-set > .item {
@@ -608,6 +612,7 @@ p {
   margin-left: var(--card-set-gap);
 
   cursor: pointer;
+  outline: 1px solid blue;
 }
 
 /* Card */
