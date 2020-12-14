@@ -69,6 +69,9 @@ p {
 }
 
 /*  HEADER */
+.page-header {
+  background-color: var(--primary-background-color);
+}
 .header {
   display: flex;
   align-items: center;
@@ -150,12 +153,17 @@ p {
   margin-right: 10px;
   fill: currentColor;
 }
+
 /* MAIN */
 
 /* Герой */
+
 .hero-overlay {
   max-width: 1600px;
   min-height: 600px;
+
+  margin-right: auto;
+  margin-left: auto;
 
   background-image: linear-gradient(
       to right,
@@ -208,11 +216,14 @@ p {
 }
 
 /* Секции */
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 /* Особенности */
+
 .features {
   padding-top: 94px;
 }
@@ -277,6 +288,7 @@ p {
 }
 
 /* Team */
+
 .team {
   background-color: var(--background-team-btn-icons);
 }
@@ -374,6 +386,7 @@ p {
 }
 
 /* Clients */
+
 .clients-list {
   display: flex;
   justify-self: center;
@@ -412,6 +425,7 @@ p {
 }
 
 /* FOOTER */
+
 .page-footer {
   background-color: var(--secondary-background-color);
 }
@@ -420,11 +434,13 @@ p {
 }
 
 /* Логотип-2 */
+
 .studio {
   color: var(--primary-background-color);
 }
 
 /* Адресс */
+
 .address-box {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -529,6 +545,7 @@ p {
 /* ПОРТФОЛИО */
 
 /* Фильтр */
+
 .filter-list {
   display: flex;
   justify-content: center;
@@ -568,6 +585,7 @@ p {
 }
 
 /* Карточки */
+
 .card-set {
   display: flex;
   flex-wrap: wrap;
@@ -591,6 +609,7 @@ p {
 }
 
 /* Card */
+
 .card {
   text-decoration: none;
   border: 1px solid transparent;
